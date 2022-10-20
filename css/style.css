@@ -13,9 +13,9 @@
     margin-top: 1.2rem!important;
 }
 
-.fix-container {
+/*.fix-container {
   padding-bottom: 15px;
-}
+}*/
 .collapse.show { 
   background-color:white;
   border-radius:10px;
@@ -90,7 +90,6 @@ a {
  padding-top: 1.5%;
  padding-bottom: 1%;
  border-bottom-width: 1%;
-  background: red;
 }
 
 
@@ -109,10 +108,10 @@ width: 120%;
     background: #9B9898;
 }
 .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
-    padding-right: 0;
     padding-left: 0;
     margin-top: auto;
 }
+
 
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
@@ -126,14 +125,7 @@ width: 120%;
     height: 16%;
 }
 
-.letradesc{
-  font-size: small;
-  font-style: italic;
-}
 
-.espacio{
-  padding-bottom: 3%;
-}
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
     color: #01DF01;
@@ -171,6 +163,7 @@ width: 120%;
 /*Servicios*/
 .serv { ;
 	color: white;
+  padding-top: 0%;
 	padding-bottom: 5%;
 	padding-left: 5%;
 	border-top:none;
@@ -178,21 +171,94 @@ width: 120%;
 	padding-right: 5%;
 	text-align: center;
 }
+.alinear1{
+  margin-top: 8%;
+}
+
+.alinear2{
+  margin-top: 16%;
+}
+
+.alinear3{
+  margin-top: 14%;
+}
+
 .tab {
 	background-color: white;
 	border-radius: 1rem;
 	opacity: 0.86;
-	height: 6rem;
 }
 .red {
 	color: #01DF01;
 }
-#b3, #b4 {
-	padding-top: 8%;
+
+        /*<button class="navbar-toggler navbar-toggler-right collapsed" 
+          type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+          aria-controls="navbarResponsive" aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        */
+
+.menub{    
+    width: 99%;
+    border-radius: .8rem;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    margin-right: 0%;
+    height: 100%;
+
 }
-#b5{
-    position: absolute;
-    margin-left: 7%;
+
+.listado {
+    color: white;
+    padding-top: 5%;
+}
+
+/*Novedades*/
+
+.pepe{
+  width: 50%;
+  margin-bottom: 10%;
+  border-radius: 1rem;
+}
+
+.letrita {
+  color: black;  
+}
+
+.nove{
+  margin-top: 5%;
+}
+
+.fondosq{
+  color: #343432;
+
+}
+
+.face{
+  border:none;
+  margin:auto;
+  margin-bottom: 5%;
+}
+
+.inst{
+  border: 1rem;
+  border-radius: 1rem;
+}
+
+.sabiasq {
+    border-left: 0.1rem #01DF01 inset;
+    margin-bottom: 3%;
+    padding-top: 1%;
+    overflow: hidden;
+    
+}
+
+.insta { 
+  width: 80%; 
+  height: auto !important;
 }
 
 
@@ -220,6 +286,27 @@ width: 120%;
 	background-image: url(../img/map2.png);
 	padding-bottom: 30px;
 }
+
+/*Equipo*/
+.desc1{
+  font-size:0.9rem;
+}
+
+.desc2{
+  font-size: small;
+  font-style: italic;
+  
+}
+
+.descripcion{
+    margin-right: 1.6%;
+    margin-left: 1.6%;
+}
+
+.espacio{
+  padding-bottom: 3%;
+}
+
 
 /*Contacto*/
 .contact{
@@ -334,3 +421,7 @@ footer {
 
 
     */
+
+ /*<div class="col-md-4 mb-5 mb-lg-0" id="col1">
+            <p><br>Enzo D. Morbiducci<br>Analista de sistemas<br>Perito informático Suprema Corte de la Justicia<br>Agente técnico fiscal<br>Consejo profesional de Ciencias Informáticas de la Provincia de Buenos Aires. <br>M.P 1643</p>
+          </div>*/
