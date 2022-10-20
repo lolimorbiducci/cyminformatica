@@ -1,7 +1,0 @@
-.mostrar {
-	display: "block";
-}
-
-.oculto {
-	display: "none";
-}
